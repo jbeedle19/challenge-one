@@ -1,3 +1,4 @@
+/* General Page Style Start */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Navigation Style Start */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +22,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -45,11 +47,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Navigation Style End */
 
-p {
-    font-size: 16px;
-}
-
+/* Hero Style Start */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +58,15 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* Hero Style Start */
+
+
+
+p {
+    font-size: 16px;
+}
+
+
 
 .float-left {
     float: left;
@@ -188,6 +197,7 @@ p {
     font-size: 36px;
 }
 
+/* Footer Style Start */
 .footer {
     padding: 30px;
     clear: both;
@@ -198,3 +208,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* Footer Style End */
